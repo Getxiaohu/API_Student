@@ -156,10 +156,24 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="DAL\DBHelper.cs" />
+    <Compile Include="DAL\MyAdd.cs" />
+    <Compile Include="DAL\MyDelete.cs" />
+    <Compile Include="DAL\MyLogin.cs" />
+    <Compile Include="DAL\MyModify.cs" />
+    <Compile Include="DAL\MyStudent.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\City.cs" />
+    <Compile Include="Models\ClassInfo.cs" />
+    <Compile Include="Models\County.cs" />
+    <Compile Include="Models\LoginInfo.cs" />
+    <Compile Include="Models\Province.cs" />
+    <Compile Include="Models\SchoolInfo.cs" />
+    <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -215,7 +229,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
