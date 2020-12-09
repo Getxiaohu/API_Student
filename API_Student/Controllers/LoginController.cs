@@ -16,7 +16,7 @@ namespace API_Student.Controllers
         [HttpGet]
         public IHttpActionResult GetList(string name,string pwd)
         {
-            return Json( dal.GetLogin(name, pwd));          
+            return Json( dal.GetLogin(name, pwd));              
         }
     }
 }
